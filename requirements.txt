@@ -1,0 +1,10 @@
+numpy
+scipy>=1.9      # linprog(method="highs"), milp
+networkx>=3.0
+pandas
+matplotlib
+tabulate        # pandas.to_markdown in the report
+joblib>=1.3     # return_as="generator_unordered"
+pytest          # optional: `python run_tests.py` works without it
+pulp            # optional: PuLP/CBC cross-check backend (--backend pulp)
+# highspy       # optional
